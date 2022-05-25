@@ -1,0 +1,19 @@
+{
+    "name": "teamtracker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "inquirer": "^7.3.3",
+        "jest": "^28.1.0"
+    }
+}
