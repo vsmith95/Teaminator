@@ -103,7 +103,7 @@ const idArr = [];
 
         ])
         .then(answers => {
-            let manager = new Manager(answers.email, answers.name, answers.id, "Manager", answers.officeNumber);
+            let manager = new Manager(answers.email, answers.name, answers.id, answers.officeNumber);
             teamMembers.push(manager);
             idArr.push(answers.id);
             createTeam();
@@ -171,7 +171,7 @@ const idArr = [];
             },
         ])
         .then(answers => {
-            let engineer = new Engineer(answers.email, answers.name, answers.id, "Engineer", answers.github);
+            let engineer = new Engineer(answers.email, answers.name, answers.id, answers.github);
             teamMembers.push(engineer);
             idArr.push(answers.id);
             createTeam();
@@ -239,7 +239,7 @@ const idArr = [];
             },
         ])
         .then(answers => {
-            let intern = new Intern(answers.email, answers.name, answers.id, "Intern", answers.school);
+            let intern = new Intern(answers.email, answers.name, answers.id, answers.school);
             teamMembers.push(intern);
             idArr.push(answers.id);
             createTeam();
