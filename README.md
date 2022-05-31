@@ -4,6 +4,9 @@
   ## Description:
 
   ### Intent is to be a simple to use Team Generator application, however the current itteration is bugged and not fully fuctional and I have other projects to move on to for now.
+  
+  ## Video:
+  ### https://youtu.be/51bO4dWICCI
 
   ## Table of Contents:
   ###  * [Installation](#installation)
